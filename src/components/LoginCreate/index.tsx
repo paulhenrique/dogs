@@ -8,4 +8,4 @@ function LoginCreate() {
   )
 }
 
-export default LoginCreate
+export default LoginCreate;

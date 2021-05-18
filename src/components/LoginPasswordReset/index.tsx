@@ -4,9 +4,9 @@ import styles from './styles.module.scss'
 function LoginPasswordReset() {
   return (
     <div className={styles.LoginPasswordReset}>
-      <h1>Login Create</h1>
+      <h1>Login Password Reset</h1>
     </div>
   )
 }
 
-export default LoginPasswordReset
+export default LoginPasswordReset;

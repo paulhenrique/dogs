@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 function LoginPasswordLost() {
   return (
     <div className={styles.LoginPasswordLost}>
-      <h1>Login Create</h1>
+      <h1>Login Password Lost</h1>
     </div>
   )
 }
