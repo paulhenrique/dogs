@@ -7,11 +7,11 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Login from './components/Login';
 import Home from './pages/Home';
-
+import theme from './assets/theme';
 function App() {
   return (
     <div>
-      <ChakraProvider>
+      <ChakraProvider theme={theme}>
         <BrowserRouter>
           <Header />
           <Routes>
