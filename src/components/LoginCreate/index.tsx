@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 function LoginCreate() {
   return (
     <div className={styles.LoginCreate}>
-      <h1>Login Create</h1>
+      <h1>Login Form</h1>
     </div>
   )
 }

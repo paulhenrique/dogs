@@ -11,7 +11,7 @@ function Login() {
     <div className={styles.Login}>
       <Routes>
         <Route path="/" element={<LoginForm />}></Route>
-        <Route path="criar" element={<LoginCreate />}></Route>
+        <Route path="/criar" element={<LoginCreate />}></Route>
         <Route path="perdeu" element={<LoginPasswordLost />}></Route>
         <Route path="resetar" element={<LoginPasswordReset />}></Route>
       </Routes>
@@ -19,4 +19,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Login;
